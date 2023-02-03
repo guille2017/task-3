@@ -1,0 +1,208 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    /*box-sizing:content-box;*/
+
+}
+
+body{
+
+    font-family: cursive;
+    background-image: url("./imagenes/jockey-10.jpeg");
+    background-repeat: no-repeat;
+    background-size: 25px 50px;
+    background-size: 100% 100%;
+    margin: 0px auto;
+    padding: 200px auto;
+    box-sizing: content-box;
+}
+
+header{
+    padding: 50px;
+    /*background-color: #0d0d0e;
+    /*background-repeat: no-repeat;
+    /*background-size: cover;
+    background-attachment:scroll;*/
+    
+
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+/*****flexbox******/
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+/*******estilo al menu****/
+
+a {
+    
+    padding: 17px 19px;
+    text-decoration: none;
+    color: white;
+   padding: 10px 40px 10px 40px;
+   box-shadow: 5px 5px blueviolet;
+   background-color: black;
+   border: 1px solid blue;
+   border-radius: 15px;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: space-around;
+ 
+    
+    /*background-image: url("./imagenes/jockey-10.jpeg");*/
+    padding: 10px; 
+   /* border: 1px solid black;*/
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+   
+}
+#contenido > div {
+    /*background-color: blueviolet;*/
+   /* width: 10px;
+    margin: 10px;*/
+    text-align: center;
+    line-height: 50px;
+   font-size: 30px;
+    border: 1px solid black;
+    gap: 10px;
+  
+}
+/*
+.contenido{
+
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      
+
+}*/
+img {
+    width: 100%;
+    
+    display: flex;
+    align-items:center;
+    margin: 20px 20px;
+    border: 1px solid rgb(62, 10, 250);
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 5px 3px 9px -1px #d1cece;
+}
+
+.box_1 {
+    color: black;
+    background-color:white;
+    flex-basis: 400px;
+    border: 2px solid rgb(62, 10, 250);
+    border-radius: 20px;
+    /*order: calc(1);*/
+    
+    
+}
+
+
+.box_2 {
+    color: rgb(95, 243, 26);
+    /*background-color: chocolate;*/
+    flex-basis: 80px;
+}
+
+
+.box_3 {
+    color: rgb(230, 10, 101);
+    /*background-color: cornflowerblue;*/
+    flex-basis: 10px;
+}
+
+.box_4 {
+    color: rgb(216, 52, 11);
+    /*background-color:crimson;*/
+    flex-basis: 50px;
+    
+}
+/****************tabla************************/
+
+table{
+    width: 100%;
+    font-size: 10px;
+    
+  }
+  
+  table {
+    
+    
+    border-collapse: collapse;
+
+    
+  }
+
+  th,td {
+  border: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+  
+ 
+  th{
+    text-align:center;
+  }
+  tr{
+    text-align: left;
+  }
+ 
+  h2{
+    text-align: center;
+  }
+  
+
+  /**************************lista****************************/
+ ul, ol ,li{
+    font-style: italic;
+ }
+ li{
+    color: firebrick;
+ }
+  
+.box_1 {
+    
+    padding: 30px 40px 40px 40px;
+    
+      
+}
+
+p{
+    color: firebrick;
+}
+h2{
+   color: cornflowerblue;
+}
+h3{
+   color: coral;
+}
+h4{
+    color: darkcyan;
+}
+/*******flexbox*********/
+
+  .contenido{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    /*flex-grow:initial;*/
+    justify-content: left;
+  }
